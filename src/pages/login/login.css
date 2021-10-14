@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  background-color: #007547;
+  height: 100vh;
+  color: white;
+}
+
+.right {
+  width: 40%;
+  padding: 2rem;
+}
+
+.left h1 {
+  font-size: 5rem;
+  margin-left: 30%;
+  margin-top: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__btn button {
+  width: 100%;
+}
+
+.register {
+  color: #007547;
+}
+
+.email__input,
+.password__input {
+  margin-bottom: 2rem !important;
+}
+
+.right-container {
+  margin-top: 40%;
+  padding: 0rem 5rem;
+}
